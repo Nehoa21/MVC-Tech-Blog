@@ -5,14 +5,14 @@ const router = require('express').Router();
 const apiRoutes = require('./api');
 const loginRoute = require('./loginRoute.js');
 const homeRoutes = require('./homeRoutes.js');
-const profileRoute = require('./profileRoute.js');
+const dashboardRoute = require('./dashboardRoute.js');
 const postRoute = require('./postRoute.js');
 
 // Use the modular route handlers for specific paths
 router.use('/api', apiRoutes);
 router.use('/', loginRoute);
 router.use('/homepage', homeRoutes);
-router.use('/profile', profileRoute);
+router.use('/profile', dashboardRoute);
 router.use('/posts', postRoute);
 
 // Export the router for use in the main application

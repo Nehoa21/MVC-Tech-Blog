@@ -20,7 +20,7 @@ if (process.env.JAWSDB_URL) {
         {
             host: 'localhost',
             dialect: 'mysql',
-            database: 'social_db',
+            database: 'blog_db',
             port: 3306
         }
     );
