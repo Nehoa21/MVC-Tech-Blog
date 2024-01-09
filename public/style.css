@@ -7,14 +7,23 @@ html, body {
 /* Body styling */
 body {
     text-align: center;
-    background: linear-gradient(#0437F2, black);
-    color: white;
+    background: #ebe5d9;
+    color: #cc8a56;
     font-family: 'Arial', sans-serif;
     font-size: 16px;
     line-height: 1.6;
     background-attachment: fixed;
 }
 
+h1 {
+    margin-left: -650px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+nav {
+    margin-left: -545px;
+}
 /* Navigation links styling */
 nav a {
     text-decoration: none;
@@ -87,8 +96,8 @@ label {
 
 /* Button styling */
 .btn, .btn-primary, .post-card button, .comment-btn, nav button {
-    background-color: #071e24;
-    color: white;
+    background-color: #cc8a56;
+    color: #ebe5d9;
     padding: 8px 16px;
     border: none;
     border-radius: 4px;
@@ -115,13 +124,14 @@ label {
     width: 50%;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #0829a0;
+    background-color: #14b09b;
     line-height: 1.8;
 }
 
 /* Styling for post details */
 .post-user {
     font-size: 12px;
+    color: #ebe5d9;
 }
 
 .comment-user {
@@ -130,11 +140,13 @@ label {
 
 .post-title {
     font-size: 25px;
-    color: white;
+    font-weight: bold;
+    color: #0359ae;
 }
 
 .post-content {
     font-size: 16px;
+    color: #ebe5d9;
 }
 
 .comment-content {
