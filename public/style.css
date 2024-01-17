@@ -16,14 +16,10 @@ body {
 }
 
 h1 {
-    margin-left: -650px;
     font-size: 50px;
     font-weight: bolder;
 }
 
-nav {
-    margin-left: -545px;
-}
 /* Navigation links styling */
 nav a {
     text-decoration: none;
@@ -107,9 +103,9 @@ label {
 }
 
 /* Specific styling for primary button */
-.btn-primary {
+/* .btn-primary {
     background-color: #071e24;
-}
+} */
 
 /* Hover effect for buttons */
 .btn:hover, .btn-primary:hover, .post-card button:hover, .comment-btn:hover, nav button:hover {
@@ -216,11 +212,11 @@ label {
 
 /* Styling for modal content/box */
 .modal-content {
-    background-color: rgba(6, 34, 134);
-    color: whitesmoke;
+    background-color: #14b09b;
+    color: #ebe5d9;
     margin: 15% auto;
     padding: 20px;
-    border: 1px solid #888;
+    border: 1px solid #ebe5d9;
     width: 50%;
 }
 
@@ -232,8 +228,8 @@ textarea#content-post {
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
-    background-color: rgb(51, 50, 50);
-    color: white; 
+    background-color: #ebe5d9;
+    color: #0359ae; 
     resize: vertical; 
     height: 200px; 
     caret-color: white;
@@ -248,8 +244,8 @@ input#title-post {
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
-    background-color: rgb(51, 50, 50);
-    color: white;
+    background-color: #ebe5d9;
+    color: #0359ae;
 }
 
 input#title-post:hover {
