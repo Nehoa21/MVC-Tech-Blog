@@ -1,14 +1,14 @@
 [
     {
-        "content": "I love MVC relationships!",
+        "content": "MVC relationships are so confusing!",
         "post_id": 1
     },
     {
-        "content": "Seeding is the best!",
+        "content": "Now i know what the application is supposed to look like.",
         "post_id": 2
     },
     {
-        "content": "Side-Projects are cool!",
+        "content": "Side-Projects are fun!",
         "post_id": 3
     }
 ]

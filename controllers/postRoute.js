@@ -12,10 +12,6 @@ router.get('/:id', async (req, res) => {
                     attributes: ['name']
                 },
                 {
-                    model: Post,
-                    attributes: ['likes'],
-                },
-                {
                     model: Comment,
                     include: {
                         model: User,
